@@ -1,0 +1,122 @@
+html{
+    background-color: lightgray;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.main{
+    display: block;
+    width: 60%;
+    padding: 10px;
+    background-color: white;
+    margin: auto;
+    box-shadow: 1px 1px 10px 5px gray;
+}
+.main img{
+    width: 100%;
+}
+.thumbs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thumbs li{
+    width: 15%;
+    padding: 10px;
+    background-color: white;
+    margin: 1%;
+    box-shadow: 1px 1px 10px 5px gray;
+}
+.thumbs li img {
+    width: 100%;
+}
+
+.next .prev{
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 12px;
+  }
+.prev {
+    left: 155px;
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%) rotate(180deg);
+    box-shadow: 1px 1px 10px 5px gray;
+  
+  }
+.next {
+    right: 155px;
+    position: absolute;
+    top: 55%;
+    box-shadow: 1px 1px 10px 5px gray;
+
+  }
+  .rodape {
+    background-color:cornflowerblue;
+    padding: 20px;
+}
+
+.rodape-menu-imagem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.rodape-imagem {
+    height: 40px;
+}
+
+.rodape-menu{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.rodape-menu-item {
+    font-family: 'Assistant', sans-serif;
+    color:white;
+    font-weight: 400;
+}
+.cabecalho {
+    background-color:cornflowerblue;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.cabecalho-imagem {
+    height: 50px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 400px;
+   
+    
+}
+
+#divBusca{
+    background-color: #f4f1f1;
+    border-radius: 1vw;
+    width: 20vw;
+  }
+  
+  
+  #txtBusca{
+    background-color: transparent;
+    padding-left: 1vw;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1vw;
+    border: 15px;
+    height: 2.5vw;
+    width: 20vw;
+  }
